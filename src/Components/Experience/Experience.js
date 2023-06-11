@@ -1,7 +1,6 @@
-import React from 'react'
-import './Experience.css'
-import { BsPatchCheckFill } from 'react-icons/bs'
-
+import React from "react";
+import "./Experience.css";
+import { BsPatchCheckFill } from "react-icons/bs";
 
 function Experience() {
   return (
@@ -14,40 +13,102 @@ function Experience() {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className="tex-light">Experience</small>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="tex-light"></small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>CSS</h4>
-              <small className="tex-light">Experience</small>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>CSS</h4>
+                <small className="tex-light"></small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>HTML</h4>
-              <small className="tex-light">Experience</small>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>HTML</h4>
+                <small className="tex-light"></small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
-              <h4>JavaScript</h4>
-              <small className="tex-light">Experience</small>
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="tex-light"></small>
+              </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Bootstrap</h4>
+                <small className="tex-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Tailwind </h4>
+                <small className="tex-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>React</h4>
+                <small className="tex-light"></small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        {/* Backend */}
+        <div className="experience__backend">
+          <h3>Backend Development</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Node JS</h4>
+                <small className="tex-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>MongoDB</h4>
+                <small className="tex-light"></small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>MySQL</h4>
+                <small className="tex-light"></small>
+              </div>
+            </article>
+            {/* <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <h4>Python</h4>
+              <small className="tex-light"></small>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
               <h4>Bootstrap</h4>
-              <small className="tex-light">Experience</small>
+              <small className="tex-light"></small>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className="experience__details-icon" />
               <h4>Tailwind </h4>
-              <small className="tex-light">Experience</small>
+              <small className="tex-light"></small>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className="experience__details-icon" />
               <h4>React</h4>
-              <small className="tex-light">Experience</small>
-            </article>
+              <small className="tex-light"></small>
+            </article> */}
           </div>
         </div>
       </div>
@@ -55,4 +116,4 @@ function Experience() {
   );
 }
 
-export default Experience
+export default Experience;

@@ -1,8 +1,6 @@
-import React from 'react'
-import { BsLinkedin } from 'react-icons/bs'
-import { FaGithub } from 'react-icons/fa'
-
-
+import React from "react";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
 
 function HeaderSocials() {
   return (
@@ -10,9 +8,11 @@ function HeaderSocials() {
       <a href="https://www.linkedin.com/in/gerald-pinkins/" target="_blank">
         <BsLinkedin />
       </a>
-      <a href="https://github.com/GeraldPinkinsJr" target="_blank"><FaGithub /></a>
+      <a href="https://github.com/GeraldPinkinsJr" target="_blank">
+        <FaGithub />
+      </a>
     </div>
   );
 }
 
-export default HeaderSocials
+export default HeaderSocials;
